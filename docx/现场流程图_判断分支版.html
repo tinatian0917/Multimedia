@@ -1,0 +1,69 @@
+<svg width="100%" viewBox="0 0 680 454" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>现场流程（现状）含判断分支与耗时痛点</title>
+<desc>五段业务链路后接人工逐份核对，判断是否存在版本错配；分支为正常交付或翻原始版本判断责任A/B，最终进入人工审核确认，并标注耗时等任务痛点。</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<text class="th" x="40" y="42" style="font-size:16px" fill="#2C2C2A">现场流程（现状）</text>
+<rect x="550" y="26" width="90" height="24" rx="12" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="ts" x="595" y="38" text-anchor="middle" dominant-baseline="central" style="font-size:12px;font-weight:500" fill="#185FA5">AS-IS · 现状</text>
+<text class="ts" x="40" y="64" fill="#5F5E5A">异常核对集中在版本审核→交付之间，全靠人工逐份比对与判断</text>
+<rect x="40" y="84" width="104" height="50" rx="9" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<circle cx="92" cy="100" r="9" fill="#185FA5"/>
+<text class="ts" x="92" y="100" text-anchor="middle" dominant-baseline="central" style="font-size:11px;font-weight:500" fill="#FFFFFF">01</text>
+<text class="th" x="92" y="122" text-anchor="middle" dominant-baseline="central" fill="#0C447C">渠道规格</text>
+<rect x="164" y="84" width="104" height="50" rx="9" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<circle cx="216" cy="100" r="9" fill="#185FA5"/>
+<text class="ts" x="216" y="100" text-anchor="middle" dominant-baseline="central" style="font-size:11px;font-weight:500" fill="#FFFFFF">02</text>
+<text class="th" x="216" y="122" text-anchor="middle" dominant-baseline="central" fill="#0C447C">素材制作</text>
+<rect x="288" y="84" width="104" height="50" rx="9" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<circle cx="340" cy="100" r="9" fill="#185FA5"/>
+<text class="ts" x="340" y="100" text-anchor="middle" dominant-baseline="central" style="font-size:11px;font-weight:500" fill="#FFFFFF">03</text>
+<text class="th" x="340" y="122" text-anchor="middle" dominant-baseline="central" fill="#0C447C">版本审核</text>
+<rect x="412" y="84" width="104" height="50" rx="9" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<circle cx="464" cy="100" r="9" fill="#185FA5"/>
+<text class="ts" x="464" y="100" text-anchor="middle" dominant-baseline="central" style="font-size:11px;font-weight:500" fill="#FFFFFF">04</text>
+<text class="th" x="464" y="122" text-anchor="middle" dominant-baseline="central" fill="#0C447C">交付</text>
+<rect x="536" y="84" width="104" height="50" rx="9" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<circle cx="588" cy="100" r="9" fill="#185FA5"/>
+<text class="ts" x="588" y="100" text-anchor="middle" dominant-baseline="central" style="font-size:11px;font-weight:500" fill="#FFFFFF">05</text>
+<text class="th" x="588" y="122" text-anchor="middle" dominant-baseline="central" fill="#0C447C">效果回收</text>
+<line x1="146" y1="109" x2="161" y2="109" stroke="#378ADD" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="270" y1="109" x2="285" y2="109" stroke="#378ADD" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="394" y1="109" x2="409" y2="109" stroke="#378ADD" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="518" y1="109" x2="533" y2="109" stroke="#378ADD" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M340 134 L340 156" fill="none" stroke="#854F0B" stroke-width="0.5" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<rect x="250" y="158" width="180" height="44" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.5"/>
+<text class="th" x="340" y="175" text-anchor="middle" dominant-baseline="central" fill="#633806">人工逐份核对</text>
+<text class="ts" x="340" y="191" text-anchor="middle" dominant-baseline="central" fill="#854F0B">耗时 8 小时 / 90 份 [f12]</text>
+<path d="M340 202 L340 226" fill="none" stroke="#185FA5" stroke-width="1.5" marker-end="url(#arrow)"/>
+<polygon points="340,228 420,256 340,284 260,256" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text class="th" x="340" y="256" text-anchor="middle" dominant-baseline="central" fill="#0C447C">版本错配？</text>
+<text class="ts" x="246" y="244" text-anchor="middle" dominant-baseline="central" fill="#A32D2D">是</text>
+<text class="ts" x="434" y="244" text-anchor="middle" dominant-baseline="central" fill="#0F6E56">否</text>
+<line x1="258" y1="256" x2="234" y2="256" stroke="#A32D2D" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="422" y1="256" x2="446" y2="256" stroke="#0F6E56" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="50" y="234" width="184" height="44" rx="8" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/>
+<text class="th" x="142" y="251" text-anchor="middle" dominant-baseline="central" fill="#791F1F">是 · 翻原始版本</text>
+<text class="ts" x="142" y="267" text-anchor="middle" dominant-baseline="central" fill="#A32D2D">查改版节点与清单发出时间</text>
+<rect x="448" y="234" width="182" height="44" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text class="th" x="539" y="251" text-anchor="middle" dominant-baseline="central" fill="#085041">否 · 正常交付</text>
+<text class="ts" x="539" y="267" text-anchor="middle" dominant-baseline="central" fill="#0F6E56">→ 汇入交付环节</text>
+<path d="M142 278 L142 304" fill="none" stroke="#A32D2D" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="50" y="306" width="260" height="52" rx="8" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.5"/>
+<text class="th" x="180" y="323" text-anchor="middle" dominant-baseline="central" fill="#791F1F">责任方向判断</text>
+<text class="ts" x="180" y="340" text-anchor="middle" dominant-baseline="central" fill="#A32D2D">A 清单未同步 / B 改版后未补发</text>
+<path d="M180 358 L180 382" fill="none" stroke="#854F0B" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="50" y="382" width="260" height="52" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="1"/>
+<text class="th" x="180" y="399" text-anchor="middle" dominant-baseline="central" fill="#633806">人工审核确认</text>
+<text class="ts" x="180" y="416" text-anchor="middle" dominant-baseline="central" fill="#854F0B">当班人员核对 · 翻原始版本定责 [f14]</text>
+<rect x="448" y="306" width="182" height="128" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.5"/>
+<rect x="448" y="306" width="4" height="128" rx="2" fill="#A32D2D"/>
+<text class="th" x="466" y="326" dominant-baseline="central" fill="#791F1F">任务痛点</text>
+<text class="ts" x="466" y="350" dominant-baseline="central" fill="#444441">耗时：逐份核对 8h/90 份</text>
+<text class="ts" x="466" y="372" dominant-baseline="central" fill="#444441">混放：规格与版本混放 [f10]</text>
+<text class="ts" x="466" y="394" dominant-baseline="central" fill="#444441">无编号：三类工具无关联 [f30]</text>
+<text class="ts" x="466" y="416" dominant-baseline="central" fill="#444441">失真：回填≠发生时间 [f13]</text>
+</svg>
