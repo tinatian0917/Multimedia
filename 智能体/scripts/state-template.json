@@ -1,0 +1,33 @@
+{
+  "candidate_id": "张三/Java后端/ID-20261117-003",
+  "created_at": "2026-11-17T10:00:00+08:00",
+  "last_updated_at": "2026-11-17T10:00:00+08:00",
+  "last_completed_stage": null,
+  "guardrail_global_check": null,
+  "stages": {
+    "STAGE_1": {
+      "status": "pending",
+      "idempotent_key": null,
+      "output_path": null,
+      "guardrail_snapshot": null,
+      "completed_substeps": [],
+      "timestamp": null
+    },
+    "STAGE_2": {
+      "status": "pending",
+      "idempotent_key": null,
+      "output_path": null,
+      "guardrail_snapshot": null,
+      "completed_substeps": [],
+      "timestamp": null
+    },
+    "STAGE_3": {
+      "status": "pending",
+      "idempotent_key": null,
+      "output_path": null,
+      "guardrail_snapshot": null,
+      "completed_substeps": [],
+      "timestamp": null
+    }
+  }
+}

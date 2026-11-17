@@ -1,0 +1,40 @@
+{
+  "candidate_id": "张三/Java后端/ID-20261117-003",
+  "started_at": "2026-11-17T15:58:26+08:00",
+  "completed_at": "2026-11-17T15:58:26+08:00",
+  "duration_seconds": 0.0,
+  "stages_completed": [
+    "STAGE_1",
+    "STAGE_2",
+    "STAGE_3"
+  ],
+  "guardrail_final": {
+    "G-01_score_output": 0,
+    "G-02_hire_output": 0,
+    "G-03_induction_source_ok": 1.0,
+    "G-04_conflict_not_merged": true,
+    "G-05_coverage": 0.8461538461538461,
+    "overall_passed": true,
+    "G-05_original_covered_count": 22,
+    "G-05_expected_count": 26,
+    "G-05_overwrite_count": 5,
+    "skipped_paragraph_ids": [
+      "R1-P001",
+      "R2-P001",
+      "R2-P009",
+      "R3-P001",
+      "R3-P007"
+    ],
+    "G-05_overwrite_count_final": 0
+  },
+  "output_file": "/Users/tina/Documents/D-Work/2026劳动竞赛/HR智能系统/智能体/output/张三_Java后端_ID-20261117-003-deliverable.md",
+  "summary": {
+    "paragraphs_total": 27,
+    "paragraphs_missing": 1,
+    "conflict_groups": 2,
+    "facts": 15,
+    "evaluations": 7,
+    "inductions": 1,
+    "todos": 3
+  }
+}

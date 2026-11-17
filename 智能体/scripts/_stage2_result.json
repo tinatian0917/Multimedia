@@ -1,0 +1,294 @@
+{
+  "result": {
+    "facts": [
+      {
+        "paragraph_id": "R1-P002",
+        "round": "R1",
+        "interviewer": "李经理（技术主管）",
+        "text": "---",
+        "content_hash": "cb3f91d54eee30e5",
+        "source": "R1-P002",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R1-P003",
+        "round": "R1",
+        "interviewer": "李经理（技术主管）",
+        "text": "张三，本科毕业 5 年，一直在做 Java 后端开发，主要用 Spring Boot 和 MySQL。上一家公司是做金融系统的，做过 3 个面向 C 端的项目。",
+        "content_hash": "59a7aa7d527312ed",
+        "source": "R1-P003",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R1-P004",
+        "round": "R1",
+        "interviewer": "李经理（技术主管）",
+        "text": "面试官问了几个 Spring 相关的问题，候选人回答比较流畅，对 Spring Bean 的生命周期理解到位，也讲了自己在上一个项目里怎么解决分布式事务的问题。候选人说自己熟悉分布式锁的几种实现方式，用 Redis 做过实际项目。",
+        "content_hash": "8464cff0fb74323a",
+        "source": "R1-P004",
+        "is_conflict": true,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R1-P005",
+        "round": "R1",
+        "interviewer": "李经理（技术主管）",
+        "text": "候选人详细讲了第一个项目，是一个线上支付系统，日活大概 20 万，他负责订单模块的开发和维护，包括创建订单、支付回调、对账这几个核心流程。在第二个项目里他做过消息队列（Kafka）的消费者端开发，处理过幂等性问题。第三个项目是一个内部管理系统，用 Spring Boot 快速搭建的微服务架构。",
+        "content_hash": "0463307ed92fe122",
+        "source": "R1-P005",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R1-P006",
+        "round": "R1",
+        "interviewer": "李经理（技术主管）",
+        "text": "候选人说自己平时也会写点博客，关注开源社区，最近在看 Reactor 响应式编程。",
+        "content_hash": "261f742c790abc17",
+        "source": "R1-P006",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R1-P007",
+        "round": "R1",
+        "interviewer": "李经理（技术主管）",
+        "text": "对了，我下周出差，回头让行政小张联系候选人安排二面的时间。",
+        "content_hash": "53d1130ed6cf4a8d",
+        "source": "R1-P007",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R2-P002",
+        "round": "R2",
+        "interviewer": "王总监（技术总监）",
+        "text": "---",
+        "content_hash": "cb3f91d54eee30e5",
+        "source": "R2-P002",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R2-P003",
+        "round": "R2",
+        "interviewer": "王总监（技术总监）",
+        "text": "这一面主要深挖了几个技术点。分布式事务那块，候选人讲了两阶段提交和 TCC 的区别，但对于 TCC 的具体实现细节说得不够清楚，只讲了大概思路，比如 Try-Confirm-Cancel 三个阶段各做什么，但没有给出实际项目里的落地例子。",
+        "content_hash": "6b2d6deed4235701",
+        "source": "R2-P003",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R2-P004",
+        "round": "R2",
+        "interviewer": "王总监（技术总监）",
+        "text": "Redis 分布式锁那块，候选人提到了 Redisson，说用过，但当问到 RedLock 算法和单点 Redis 的区别时，回答有点模糊，似乎只是知道能用，但没有深入理解过原理。",
+        "content_hash": "18b7f8eebfab85ee",
+        "source": "R2-P004",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R2-P005",
+        "round": "R2",
+        "interviewer": "王总监（技术总监）",
+        "text": "Spring 相关的问题答得还可以，循环依赖的几种解决方式能说出来，Bean 的生命周期也能讲清楚。",
+        "content_hash": "6d7be0f5773dde88",
+        "source": "R2-P005",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R2-P007",
+        "round": "R2",
+        "interviewer": "王总监（技术总监）",
+        "text": "让候选人设计一个高并发下单系统，他说了几个关键点：用消息队列削峰、Redis 做库存预扣、限流用令牌桶。整体思路还行，但具体细节比如消息积压怎么处理、幂等性怎么做，回答得比较笼统。",
+        "content_hash": "8a94e4999bc3c210",
+        "source": "R2-P007",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R2-P010",
+        "round": "R2",
+        "interviewer": "王总监（技术总监）",
+        "text": "让候选人等通知，后续可能安排终面或者 HR 面，具体时间 HR 那边确定后通知。",
+        "content_hash": "5b16745b182557d8",
+        "source": "R2-P010",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R3-P002",
+        "round": "R3",
+        "interviewer": "张经理（招聘交付中心负责人）",
+        "text": "---",
+        "content_hash": "cb3f91d54eee30e5",
+        "source": "R3-P002",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R3-P004",
+        "round": "R3",
+        "interviewer": "张经理（招聘交付中心负责人）",
+        "text": "候选人说自己想往技术专家方向发展，三五年内希望在某个技术领域做深，比如中间件或者高并发架构，而不是走管理路线。他也提了现在在上一些在线课程，在补一些理论基础。",
+        "content_hash": "99f0fd6c992c3e73",
+        "source": "R3-P004",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R3-P009",
+        "round": "R3",
+        "interviewer": "张经理（招聘交付中心负责人）",
+        "text": "下周一我会通知候选人进入终面，终面时间定在周三下午 2 点，届时会有 CTO 一起参加。",
+        "content_hash": "10b5a789eb513cea",
+        "source": "R3-P009",
+        "is_conflict": false,
+        "was_violation": false
+      }
+    ],
+    "evaluations": [
+      {
+        "paragraph_id": "R1-P008",
+        "round": "R1",
+        "interviewer": "李经理（技术主管）",
+        "text": "整体沟通比较顺畅，回答问题有条理，能讲清楚自己做过什么。技术基础看起来还可以，不过深度方面可能需要后续再验证。候选人表达比较自然，不像那种只会背八股的。",
+        "content_hash": "f3ad725c05325768",
+        "source": "R1-P008",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R1-P009",
+        "round": "R1",
+        "interviewer": "李经理（技术主管）",
+        "text": "候选人下周二前需要提交一份之前做过的技术项目文档作为补充材料。一面整体还算不错，可以安排二面。",
+        "content_hash": "241f53b77a4af741",
+        "source": "R1-P009",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R2-P006",
+        "round": "R2",
+        "interviewer": "王总监（技术总监）",
+        "text": "让候选人现场写了一个简单的单例模式和一个字符串反转，速度一般，大概花了 15 分钟，代码里有几个小 bug 是我指出来的，比如单例模式的双重检查锁忘了加 volatile。",
+        "content_hash": "7be5ef3eef8a9990",
+        "source": "R2-P006",
+        "is_conflict": true,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R2-P008",
+        "round": "R2",
+        "interviewer": "王总监（技术总监）",
+        "text": "技术基础比较一般，深度不够，很多地方停留在\"知道有这个东西\"但没真正深入理解的程度。编码能力有待提升，细节方面容易出错。不过沟通态度很好，也有主动学习的意愿。",
+        "content_hash": "681b03cd35eb26e8",
+        "source": "R2-P008",
+        "is_conflict": true,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R3-P003",
+        "round": "R3",
+        "interviewer": "张经理（招聘交付中心负责人）",
+        "text": "这一面主要聊了工作风格和团队协作相关的话题。候选人说自己之前在 10 人左右的小团队，每个人都比较独立，沟通直接，不太有层级感。他喜欢这样的氛围，希望能保持比较扁平的沟通方式。",
+        "content_hash": "6cd6dfd2fb3a4a8b",
+        "source": "R3-P003",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R3-P005",
+        "round": "R3",
+        "interviewer": "张经理（招聘交付中心负责人）",
+        "text": "聊了为什么离开上一家公司，候选人说主要是业务方向变化太大，和自己的兴趣不太匹配，想找一个更稳定的方向。上一家公司待了 2 年半，稳定性还可以。",
+        "content_hash": "f6a0ebd78a3910ee",
+        "source": "R3-P005",
+        "is_conflict": false,
+        "was_violation": false
+      },
+      {
+        "paragraph_id": "R3-P008",
+        "round": "R3",
+        "interviewer": "张经理（招聘交付中心负责人）",
+        "text": "整体来看候选人技术扎实，逻辑清晰，回答问题不慌不忙，能把复杂的事情用简单的语言讲清楚。从一面二面到这一面，每一面都表现得比较稳定，没有明显的短板。沟通表达也很到位，和团队协作的风格匹配度不错。我个人倾向于通过。",
+        "content_hash": "ca0054b3ae738550",
+        "source": "R3-P008",
+        "is_conflict": false,
+        "was_violation": false
+      }
+    ],
+    "missing": [
+      {
+        "round": "R3",
+        "paragraph_id": "R3-P007",
+        "label": "> 【⚠️ 注意：此处原始纪要第 4 段缺失！】\n> 原文档在\"补充验证\"标题后直接跳到了\"综合评价\"，该段内容标记为【"
+      }
+    ],
+    "conflicts": [
+      {
+        "type": "evaluation",
+        "words": [
+          "流畅",
+          "一般"
+        ],
+        "paragraphs": [
+          {
+            "round": "R1",
+            "paragraph_id": "R1-P004",
+            "text": "面试官问了几个 Spring 相关的问题，候选人回答比较流畅，对 Spring Bean 的生命周期理解到位，也讲了自己在上一个项目里怎么解决分布式事务的问题。候选人说自己熟悉分布式锁的几种实现方式，用 Redis 做过实际项目。"
+          },
+          {
+            "round": "R2",
+            "paragraph_id": "R2-P006",
+            "text": "让候选人现场写了一个简单的单例模式和一个字符串反转，速度一般，大概花了 15 分钟，代码里有几个小 bug 是我指出来的，比如单例模式的双重检查锁忘了加 volatile。"
+          }
+        ]
+      },
+      {
+        "type": "evaluation",
+        "words": [
+          "流畅",
+          "一般"
+        ],
+        "paragraphs": [
+          {
+            "round": "R1",
+            "paragraph_id": "R1-P004",
+            "text": "面试官问了几个 Spring 相关的问题，候选人回答比较流畅，对 Spring Bean 的生命周期理解到位，也讲了自己在上一个项目里怎么解决分布式事务的问题。候选人说自己熟悉分布式锁的几种实现方式，用 Redis 做过实际项目。"
+          },
+          {
+            "round": "R2",
+            "paragraph_id": "R2-P008",
+            "text": "技术基础比较一般，深度不够，很多地方停留在\"知道有这个东西\"但没真正深入理解的程度。编码能力有待提升，细节方面容易出错。不过沟通态度很好，也有主动学习的意愿。"
+          }
+        ]
+      }
+    ],
+    "source_index_idempotent": "b0b9a671c9b0473a"
+  },
+  "guardrail": {
+    "G-01_score_output": 0,
+    "G-02_hire_output": 0,
+    "G-03_induction_source_ok": -1,
+    "G-04_conflict_not_merged": true,
+    "G-05_coverage": 0.8461538461538461,
+    "overall_passed": false,
+    "G-05_original_covered_count": 22,
+    "G-05_expected_count": 26,
+    "G-05_overwrite_count": 5,
+    "skipped_paragraph_ids": [
+      "R1-P001",
+      "R2-P001",
+      "R2-P009",
+      "R3-P001",
+      "R3-P007"
+    ]
+  }
+}
